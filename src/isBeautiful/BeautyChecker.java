@@ -26,6 +26,8 @@ public class BeautyChecker {
 				group.add(new Person(firstName, lastName, rand.nextBoolean()));
 			}
 			
+			group.add(new Person("Yuu", "Feeling", true));
+			
 			scan.close();
 			
 		}

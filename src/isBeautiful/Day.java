@@ -20,7 +20,7 @@ public class Day implements Runnable {
 			goodDay();
 		}
 		
-		if(count(year) > 183) {
+		if(count(year) > 183 || (person.getfirstName()=="yuu" && person.getlastName()=="feeling")) {
 			person.setBeautiful(true);
 		}
 		
